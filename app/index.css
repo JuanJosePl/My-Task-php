@@ -1,0 +1,18 @@
+@import 'Views/components/footer/footer.css';
+@import 'Views/components/navbar/navbar.css';
+@import 'Views/pages/home/home.css';
+@import 'Views/pages/register/register.css';
+@import 'Views/pages/login/login.css';
+
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* Estilos para el cuerpo de la página */
+/* ------------------------------------ */
+/* Block: body */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
