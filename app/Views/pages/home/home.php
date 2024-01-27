@@ -23,7 +23,7 @@
             prioridades, y mantén un registro de tu progreso.
         </p>
     </div>
-    <img src="../../../../public/img/organizacion.jpg" alt="Organización" class="home__feature-image" />
+    <img src="../../../../../../task/public/img/organizacion.jpg" alt="Organización" class="home__feature-image" />
 </div>
 <div class="home__feature-card" id="recordatorios">
     <div class="home__feature-content">
@@ -36,7 +36,7 @@
             plazos.
         </p>
     </div>
-    <img src="/public/img/recordatorio.jpg" alt="Recordatorios" class="home__feature-image" />
+    <img src="../../../../../../task/public/img/recordatorio.jpg" alt="Recordatorios" class="home__feature-image" />
 </div>
 <div class="home__feature-card" id="accesibilidad">
     <div class="home__feature-content">
@@ -49,5 +49,5 @@
             dispositivos.
         </p>
     </div>
-    <img src="/public/img/accesibilad.jpg" alt="Accesibilidad" class="home__feature-image" />
+    <img src="../../../../../../task/public/img/accesibilad.jpg" alt="Accesibilidad" class="home__feature-image" />
 </div>

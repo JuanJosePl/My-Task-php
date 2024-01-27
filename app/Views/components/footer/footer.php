@@ -1,8 +1,8 @@
 <?php
 // Definir rutas de las imágenes
-$gorjeoPath = '../../../../public/icons/gorjeo.png';
-$facebookPath = '../../../../public/icons/facebook.png';
-$instagramPath = '../../../../public/icons/instagram.png';
+$gorjeoPath = '../../../../../../task/public/icons/gorjeo.png';
+$facebookPath = '../../../../../../task/public/icons/facebook.png';
+$instagramPath = '../../../../../../task/public/icons/instagram.png';
 ?>
      <div class="footer__social-icons">
          <a href="#" class="footer__social-icon">

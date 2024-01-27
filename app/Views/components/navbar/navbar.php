@@ -5,7 +5,7 @@ $userLoggedIn = false; // o false si el usuario no está autenticado
 ?>
 
 <div class="navbar__links navbar__links--left ">
-    <img src="../../../../public/icons/cheque.png" alt="Icono de My-Task" class="navbar__app-icon" />
+    <img src="../../../../../../task/public/icons/cheque.png" alt="Icono de My-Task" class="navbar__app-icon" />
     <?php if (!$userLoggedIn) { ?>
         <a href="/task/app/index.php" class="navbar__app-name">My-Task</a>
     <?php } ?>
