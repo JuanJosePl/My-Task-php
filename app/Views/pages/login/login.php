@@ -11,10 +11,10 @@
 
     <!-- Navbar -->
     <nav class="navbar" id="<?php echo $contextTheme; ?>">
-        <?php include('../../components/navbar/navbar.php'); ?>
+        <?php include('../../include/navbar/navbar.php'); ?>
     </nav>
 
-    <form action="" method="post" class="login-form" id="contextTheme">
+    <form action="../../../Controllers/LoginController.php" method="post" class="login-form" id="contextTheme">
         <div class="login-form__header">
             <h2 class="login-form__title">Iniciar Sesión</h2>
             <p class="login-form__subtext">
@@ -39,7 +39,7 @@
 
     <!-- footer -->
     <footer class="footer" id="<?php echo $contextTheme; ?>">
-        <?php include('../../components/footer/footer.php'); ?>
+        <?php include('../../include/footer/footer.php'); ?>
     </footer>
 </body>
 

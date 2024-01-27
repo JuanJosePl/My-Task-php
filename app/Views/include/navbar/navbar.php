@@ -1,8 +1,16 @@
 <?php
-// Simulando el estado de usuario, deberías adaptarlo según tu lógica de autenticación
-$userLoggedIn = false; // o false si el usuario no está autenticado
+session_start();
 
+$userLoggedIn = true;
+
+if (isset($_SESSION["login"]) && $_SESSION["login"] == "OK") {
+    $userLoggedIn = false;
+} else {
+    header("Location: /task/app/index.php");
+    exit;
+}
 ?>
+
 
 <div class="navbar__links navbar__links--left ">
     <img src="../../../../../../task/public/icons/cheque.png" alt="Icono de My-Task" class="navbar__app-icon" />
@@ -29,7 +37,6 @@ $userLoggedIn = false; // o false si el usuario no está autenticado
     // Código PHP para manejar el switch
     ?>
 </div>
-
 
 <!-- Agrega aquí el código HTML/PHP necesario para el modal de logout -->
 

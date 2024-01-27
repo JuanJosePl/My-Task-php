@@ -11,7 +11,7 @@
 
     <!-- Navbar -->
     <nav class="navbar" id="<?php echo $contextTheme; ?>">
-        <?php include('../../components/navbar/navbar.php'); ?>
+        <?php include('../../include/navbar/navbar.php'); ?>
     </nav>
 
     <div class="contenedor" id="contextTheme">
@@ -20,7 +20,7 @@
             <p class="login-form__descripcion">
                 Completa los siguientes campos para crear tu cuenta.
             </p>
-            <form action="" method="post" onSubmit="return handleSubmitRegister()">
+            <form action="../../../Controllers/RegisterController.php" method="post">
                 <div class="login-form__fila">
                     <div class="login-form__campo">
                         <span class="login-form__icon">&#128100;</span>
@@ -53,7 +53,7 @@
 
     <!-- footer -->
     <footer class="footer" id="<?php echo $contextTheme; ?>">
-        <?php include('../../components/footer/footer.php'); ?>
+        <?php include('../../include/footer/footer.php'); ?>
     </footer>
 
 </body>

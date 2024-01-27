@@ -13,7 +13,7 @@
 
     <!-- Navbar -->
     <nav class="navbar" id="<?php echo $contextTheme; ?>">
-        <?php include('Views/components/navbar/navbar.php'); ?>
+        <?php include('Views/include/navbar/navbar.php'); ?>
     </nav>
 
     <!-- Home -->
@@ -22,7 +22,7 @@
     </div>
     <!-- footer -->
     <footer class="footer" id="<?php echo $contextTheme; ?>">
-        <?php include('Views/components/footer/footer.php'); ?>
+        <?php include('Views/include/footer/footer.php'); ?>
     </footer>
 
 </body>

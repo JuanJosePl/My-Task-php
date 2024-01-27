@@ -1,5 +1,5 @@
-@import 'Views/components/footer/footer.css';
-@import 'Views/components/navbar/navbar.css';
+@import 'Views/include/footer/footer.css';
+@import 'Views/include/navbar/navbar.css';
 @import 'Views/pages/home/home.css';
 @import 'Views/pages/register/register.css';
 @import 'Views/pages/login/login.css';
