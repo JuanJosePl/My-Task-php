@@ -19,14 +19,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['usuario'] = $fila;
             $_SESSION["login"] = $fila['id']; 
 
-            header('Location: /ruta_a_redirigir');
+            header('Location: /task/app/Views/pages/task/tasks.php');
             exit;
         } else {
             echo "Contraseña incorrecta.";
+            header('Refresh: 3; url=/task/app/Views/pages/login/login.php');
             exit;
         }
     } else {
         echo "Usuario no encontrado.";
+        header('Refresh: 3; url=/task/app/Views/pages/login/login.php');
         exit;
     }
 }

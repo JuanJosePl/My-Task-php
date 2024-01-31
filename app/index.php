@@ -10,11 +10,10 @@
 </head>
 
 <body>
-
+    
     <!-- Navbar -->
-    <nav class="navbar" id="<?php echo $contextTheme; ?>">
-        <?php include('Views/include/navbar/navbar.php'); ?>
-    </nav>
+    <?php include('Views/include/navbar/navbar.php'); ?>
+
 
     <!-- Home -->
     <div class="home">
@@ -24,7 +23,7 @@
     <footer class="footer" id="<?php echo $contextTheme; ?>">
         <?php include('Views/include/footer/footer.php'); ?>
     </footer>
-
+ 
 </body>
 
 </html>

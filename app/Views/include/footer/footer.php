@@ -4,6 +4,7 @@ $gorjeoPath = '../../../../../../task/public/icons/gorjeo.png';
 $facebookPath = '../../../../../../task/public/icons/facebook.png';
 $instagramPath = '../../../../../../task/public/icons/instagram.png';
 ?>
+
      <div class="footer__social-icons">
          <a href="#" class="footer__social-icon">
              <img src="<?php echo $facebookPath; ?>" alt="Facebook" />

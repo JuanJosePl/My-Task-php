@@ -3,6 +3,10 @@
 @import 'Views/pages/home/home.css';
 @import 'Views/pages/register/register.css';
 @import 'Views/pages/login/login.css';
+@import 'Views/include/taskForm/taskForm.css';
+@import 'Views/include/taskList/taskList.css';
+@import 'Views/include/modal/logoutModal.css';
+
 
 /* Estilos generales */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');

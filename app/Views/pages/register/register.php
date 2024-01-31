@@ -10,9 +10,9 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar" id="<?php echo $contextTheme; ?>">
+   
         <?php include('../../include/navbar/navbar.php'); ?>
-    </nav>
+    
 
     <div class="contenedor" id="contextTheme">
         <div class="login-form__uno">
