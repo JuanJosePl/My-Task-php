@@ -20,9 +20,9 @@ include('../../../../config/session_config.php');
         <?php include('../../include/taskForm/taskForm.php') ?>
     </div>
 
-    <div class="card">
+    
         <?php include('../../include/taskList/taskList.php') ?>
-    </div>
+    
 
     <footer class="footer" id="<?php echo $contextTheme; ?>">
         <?php include('../../include/footer/footer.php'); ?>

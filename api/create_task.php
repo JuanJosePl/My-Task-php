@@ -10,15 +10,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Inserta la tarea en la base de datos
     $sql = "INSERT INTO tasks (names_tasks, descriptions_tasks	, finish_dates, userId) VALUES ('$name', '$description', '$finishDate', '$userId')";
-    
+
     if ($conn->query($sql) === TRUE) {
-        echo json_encode(['success' => true, 'message' => 'Tarea creada correctamente']);
+        echo "Tarea Creada Correctamente.";
+        header("Location: /task/app/Views/pages/task/tasks.php");
+        exit;
     } else {
-        echo json_encode(['success' => false, 'message' => 'Error al crear la tarea: ' . $conn->error]);
+        echo 'Error al crear la tarea: ' . $conn->error;
+        header('Refresh: 3; url=/task/app/Views/pages/task/tasks.php');
+        exit;
     }
 } else {
     echo json_encode(['success' => false, 'message' => 'Método no permitido']);
+    header('Refresh: 3; url=/task/app/Views/pages/task/tasks.php');
+    exit;
 }
 
 $conn->close();
-?>
